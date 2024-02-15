@@ -6,6 +6,7 @@ import lombok.experimental.UtilityClass;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.nio.file.Path;
 import java.time.Duration;
 import java.util.Map;
 import java.util.Properties;
@@ -49,6 +50,10 @@ public class PropConf {
 
 	public static boolean is(String key) {
 		return Boolean.parseBoolean(get(key));
+	}
+
+	public static Path getPath(String key) {
+		return Path.of(get(key));
 	}
 
 	public static Duration getDuration(String key) {

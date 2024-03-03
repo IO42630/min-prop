@@ -6,7 +6,7 @@
         <version>jdk17-0.0</version>
     </parent>
     <artifactId>min-prop</artifactId>
-    <version>2.1</version>
+    <version>2.2</version>
     <packaging>jar</packaging>
     <name>min-prop</name>
     <dependencyManagement>

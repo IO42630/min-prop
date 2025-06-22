@@ -1,18 +1,16 @@
 package com.olexyn.propconf;
 
-import org.junit.Before;
-import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertFalse;
-import static org.junit.Assert.assertThrows;
-import static org.junit.Assert.assertTrue;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 public class PropConfTest {
 
 	private static final String TEST_FILE = "test.properties";
 
-	@Before
+	@BeforeEach
     public void setUp() {
 		PropConf.clear();
 	}

@@ -1,8 +1,9 @@
 package com.olexyn.propconf;
 
-import org.junit.Test;
 
 import java.io.IOException;
+
+import org.junit.jupiter.api.Test;
 
 /**
  * Unit test for simple Property.

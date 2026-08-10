@@ -5,10 +5,10 @@
 	<parent>
 		<groupId>com.olexyn</groupId>
 		<artifactId>min-root</artifactId>
-		<version>25.0.1</version>
+		<version>25.0.2</version>
 	</parent>
 	<artifactId>min-prop</artifactId>
-	<version>2.3.0</version>
+	<version>2.3.1</version>
 	<packaging>jar</packaging>
 	<name>min-bom</name>
 	<description>Simple wrapper for `.properties` files.</description>
@@ -18,7 +18,7 @@
 			<dependency>
 				<groupId>com.olexyn</groupId>
 				<artifactId>min-bom</artifactId>
-				<version>25.0.0</version>
+				<version>25.1.0</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>

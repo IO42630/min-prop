@@ -10,7 +10,7 @@
 	<artifactId>min-prop</artifactId>
 	<version>2.3.1</version>
 	<packaging>jar</packaging>
-	<name>min-bom</name>
+	<name>min-prop</name>
 	<description>Simple wrapper for `.properties` files.</description>
 	<url>https://github.com/IO42630/min-prop</url>
 	<dependencyManagement>
